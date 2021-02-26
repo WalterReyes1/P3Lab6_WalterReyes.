@@ -1,5 +1,5 @@
-#ifndef ASIENTO_HPP
-#define ASIENTO_HPP
+#ifndef GENERO_HPP
+#define GENERO_HPP
 #include<iostream>
 #include<string>
 using namespace std;
@@ -10,5 +10,8 @@ class genero {
   genero();
   genero(string);
   ~genero();
+  string getNombre();
+  void setNombre(string);
+  string toString();
 };
 #endif
