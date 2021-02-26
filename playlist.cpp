@@ -12,6 +12,9 @@ playlist::playlist(string _nombre, vector<canciones> _Canciones) {
 	this->Canciones = _Canciones;
 
 }
+playlist::~playlist(){
+	cout<<"Liberando playlist"<<endl;
+}
 
 string playlist::getNombre() {
 	return this->nombre;

@@ -13,6 +13,10 @@ album::album(string _nombre,string _artistas, vector<canciones> _Canciones) {
 	this->Canciones = _Canciones;
 
 }
+album::~album(){
+	cout<<"Liberando albums"<<endl;
+}
+
 
 string album::getNombre() {
 	return this->nombre;
